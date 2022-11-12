@@ -42,3 +42,5 @@ exec_in_vault vault write ultrasecret/admincantreadthis somekey=somedata
 
 echo "------------- Vault Root Token -------------"
 docker-compose logs vault | grep 'Root Token:' | tail -n 1
+
+echo "hashi_vault-ui-vault-1  | Root Token: hvs.3qkOwZSA2skX5YNkEEI81NYY"
